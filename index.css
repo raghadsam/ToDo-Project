@@ -1,0 +1,116 @@
+body {
+  text-align: center;
+  margin: auto;
+  width: 70%;
+  padding: 10px;
+  font-family: Noto Sans TC;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+img {
+  width: 15%;
+}
+
+#defaultText {
+  font-size: 30px;
+}
+
+form {
+  width: 100%;
+}
+
+input,
+select {
+  text-align: center;
+}
+
+#input {
+  max-width: 80%;
+}
+
+#date {
+  max-width: 19%;
+}
+
+#priorities {
+  max-width: 13%;
+}
+
+#date {
+  width: 15%;
+}
+
+li div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li div div {
+  display: block;
+}
+
+.priority {
+  color: rgb(148, 219, 66);
+}
+
+#Delete:hover {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  transform: scale(0.9);
+}
+
+.addBtn {
+  margin: 10px;
+  width: 15%;
+  height: 35px;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background: rgb(113, 223, 113);
+  transition: all 0.2s ease;
+  color: white;
+  font-weight: 10px;
+}
+
+.addBtn:before {
+  height: 55px;
+  width: 155px;
+  background: black;
+  border: 1px solid black;
+}
+
+.addBtn:hover:before {
+  border: 5px solid rgb(113, 223, 113);
+}
+
+.addBtn:hover {
+  transform: scale(0.9);
+  color: white;
+}
+
+ul li {
+  cursor: pointer;
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  background: #eee;
+  font-size: 18px;
+  transition: 0.2s;
+  display: block;
+
+  /* make the list items unselectable */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Darker background-color on hover */
+ul li:hover {
+  background: #ddd;
+}
